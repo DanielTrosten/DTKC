@@ -1,5 +1,5 @@
 # DTKC
-Code for the DTKC-model proposed in "Deep Image Clustering with Tensor Kernels and Unsupervised Companion Objectives"
+Impplementation of the DTKC-model from "Deep Image Clustering with Tensor Kernels and Unsupervised Companion Objectives"
 
 ## Dependencies
 ```
