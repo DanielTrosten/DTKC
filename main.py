@@ -47,7 +47,10 @@ def run_multiple():
     Run multiple DTKC-training runs. The training parameters are specified as command line arguments.
     """
     X, y = LOADERS[ARGS.dataset_name]()
-    y_oh = to_onehot(y, ARGS.n_clusters)
+    if y is not None:
+        y_oh = to_onehot(y, ARGS.n_clusters)
+    else:
+        y_oh = None
 
     dtkc_params = dict(
         input_shape=X.shape[1:],
