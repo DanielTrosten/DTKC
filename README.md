@@ -1,5 +1,5 @@
 # DTKC
-Impplementation of the DTKC-model from "Deep Image Clustering with Tensor Kernels and Unsupervised Companion Objectives"
+Impplementation of the DTKC-model from ["Deep Image Clustering with Tensor Kernels and Unsupervised Companion Objectives"](https://arxiv.org/abs/2001.07026)
 
 ## Dependencies
 ```
@@ -37,3 +37,6 @@ optional arguments:
   --use_companion_losses USE_COMPANION_LOSSES
                         Enable companion objectives?
 ```
+
+## Custom datasets
+You can train the model on you own dataset by defining a dataset name and a loading function in the `LOADERS` dictionary, in `data.py`.
