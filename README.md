@@ -8,6 +8,7 @@ hdf5=1.10.5
 numpy=1.17.2
 python=3.6.7
 tensorflow-gpu=2.0.0
+tensorflow-probability=0.7=
 ```
 
 ## Training
